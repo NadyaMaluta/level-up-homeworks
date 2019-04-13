@@ -1,0 +1,23 @@
+body {
+  background-color: white ;
+  color: black;
+  font-size: 20px;
+}
+html {
+  font-size: 16px;
+}
+h1 {
+  font size: 5em;
+}
+h2{
+  size: 10rem
+}
+.table {
+  width: 100%;
+}
+td:first-letter {
+  color: red;
+}
+tr:nth-child(even) {
+  background-color: #ddd;
+}
