@@ -1,0 +1,42 @@
+body {
+  background-color: white ;
+  color: black;
+  font-size: 20px;
+}
+html {
+  font-size: 40px;
+}
+h1 {
+  font size: 5em;
+}
+h2 {
+  font size: 35rem;
+}
+h3 {
+  font-size: 2.8vh;
+}
+h4 {
+  font-size: 1.2vw;
+}
+h5 {
+  font-size: 2vmin;
+}
+h6 {
+  font-size: 15px;
+}
+.table {
+  width: 100%;
+}
+td:first-letter {
+  color: red;
+}
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+td {
+  padding: 16px;
+}
+td:nth-child(odd) td:nth-child(5n), tr:nth-child(odd) td:nth-child(6n),tr:nth-child(odd) td:nth-child(7n) {
+  font-weight: bold;
+  font-style: italic;
+}
