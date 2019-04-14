@@ -2,73 +2,77 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>CSS HW 1</title>
+    <title>CSS HW 2</title>
+    <style>a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,td,th{text-align:left;font-weight:400;vertical-align:middle}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}button,input,optgroup,select,textarea{background:0 0;border:0;padding:0;margin:0;font:inherit;color:inherit;box-shadow:none}button{height:auto;cursor:pointer}button:focus{outline:0}button::-moz-focus-inner{outline:0;border:0;padding:0}
+    </style>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Heading level 1</h1>
-    <h2>Heading level 2</h2>
-    <h3>Heading level 3</h3>
-    <h4>Heading level 4</h4>
-    <h5>Heading level 5</h5>
-    <h6>Heading level 6</h6>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <table class="firsttable">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="#">Home</a>
+                  <a href="#">Portfolio</a>
+                  <a href="#">About</a>
+                  <a href="#">Contacts</a>
+                </td>
+                <td class="authorization">
+                  <a href="#">Log in</a> / 
+                  <a href="#">Sign in</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </nav>
+      </header>
+    <div class="content">
+      <main>
+        <h1>Gallery</h1>
+        <table class="secondtable">
+          <tbody>
+              <tr>
+                <td>
+                  <img src="images/300d8a83102ac922b05f8989c8ca7f52.jpg" alt="" />
+                </td>
+                <td>
+                  <img src="images/uOiEj0DGtG0FcVLzvarhiDI5s000.jpg" alt="" />
+                </td>
+                <td>
+                  <img src="images/siaures-pasvaiste.jpg" alt="" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/ebe537cd5d0627d35abaa21d17f900b0.jpg" alt="" />
+                </td>
+                <td>
+                  <img src="images/6e4f72201936568e4b3510d8c30348dd.jpg" alt="" />
+                </td>
+                <td>
+                  <img src="images/1-47dd98f96e0893b5855d53cb8e216d36.jpg" alt="" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h2>About gallery</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, voluptatum enim amet, dolorum laboriosam aperiam ex molestiae id itaque, voluptatem dolore, perspiciatis nam deserunt. Quae vero impedit, modi inventore sunt nihil voluptate esse voluptates veniam, debitis iste nobis obcaecati dicta labore vel quam? Voluptate ab tempore quo placeat enim provident nisi deleniti pariatur accusamus suscipit numquam quia et modi, impedit, necessitatibus esse vitae sapiente dolores libero non repudiandae earum eos. Necessitatibus rerum eveniet qui aperiam nihil deleniti iusto obcaecati ducimus architecto exercitationem iure officiis earum doloribus consequuntur, laudantium libero ipsum voluptate sed totam sit eum corporis ad? Nobis, repudiandae, blanditiis.
+          </p>
+        </main>
+        <h2> Subscribe for a new updates</h2>
+        <form method="post">
+          <input class="email" type="email" placeholder="Email*" name="mail" required="required" />
+          <button class="subscribe" type="submit">Subscribe</button>
+        </form>
+      </div>
+      <footer>
+        <p>Copiright 2018</p>
+      </footer>
+    </div>
+            
   </body>
-  <table border="0" cellpadding="5" cellspacing="2">
-    <tbody>
-      <tr>
-        <td>Table cell 1</td>
-        <td>Table cell 2</td>
-        <td>Table cell 3</td>
-        <td>Table cell 4</td>
-        <td>Table cell 5</td>
-        <td>Table cell 6</td>
-        <td>Table cell 7</td>
-      </tr>
-      <tr>
-        <td>Table cell 1</td>
-        <td>Table cell 2</td>
-        <td>Table cell 3</td>
-        <td>Table cell 4</td>
-        <td>Table cell 5</td>
-        <td>Table cell 6</td>
-        <td>Table cell 7</td>      
-      </tr>
-      <tr>
-        <td>Table cell 1</td>
-        <td>Table cell 2</td>
-        <td>Table cell 3</td>
-        <td>Table cell 4</td>
-        <td>Table cell 5</td>
-        <td>Table cell 6</td>
-        <td>Table cell 7</td>        
-      </tr>
-      <tr>
-        <td>Table cell 1</td>
-        <td>Table cell 2</td>
-        <td>Table cell 3</td>
-        <td>Table cell 4</td>
-        <td>Table cell 5</td>
-        <td>Table cell 6</td>
-        <td>Table cell 7</td>        
-      </tr>
-      <tr>
-        <td>Table cell 1</td>
-        <td>Table cell 2</td>
-        <td>Table cell 3</td>
-        <td>Table cell 4</td>
-        <td>Table cell 5</td>
-        <td>Table cell 6</td>
-        <td>Table cell 7</td>        
-      </tr>
-      <tr>
-        <td>Table cell 1</td>
-        <td>Table cell 2</td>
-        <td>Table cell 3</td>
-        <td>Table cell 4</td>
-        <td>Table cell 5</td>
-        <td>Table cell 6</td>
-        <td>Table cell 7</td>        
-      </tr>
-    </tbody>
-  </table>
 </html>
